@@ -12,7 +12,7 @@ variable "vm_db_vpc_name" {
 }
 variable "vm_db_cidr" {
   type        = list(string)
-  default     = ["192.168.0.0/24"]
+  default     = ["10.0.1.0/24"]
   description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
 }
 variable "vm_db_name" {
