@@ -11,12 +11,12 @@ type = map(object({
 }))
 default = {
   dev1 = {
-    ssh_env = "ssh -o 'StrictHostKeyChecking=no' ubuntu@62.84.124.117"
-    ip_a = "10.0.1.7"
+    ssh_env = "ssh -o 'StrictHostKeyChecking=no' ubuntu@89.169.133.252"
+    ip_a = "10.0.1.16"
   }
   dev2 = {
-    ssh_env = "ssh -o 'StrictHostKeyChecking=no' ubuntu@84.252.140.88"
-    ip_a = "10.0.2.29"
+    ssh_env = "ssh -o 'StrictHostKeyChecking=no' ubuntu@130.193.52.5"
+    ip_a = "10.0.2.27"
   }
 }
 }
