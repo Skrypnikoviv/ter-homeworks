@@ -18,9 +18,5 @@ default = {
     ssh_env = "ssh -o 'StrictHostKeyChecking=no' ubuntu@84.252.140.88"
     ip_a = "10.0.2.29"
   }
-  prod1 = {
-    ssh_env = "ssh -o 'StrictHostKeyChecking=no' ubuntu@51.250.2.101"
-    ip_a = "10.0.1.30"
-  }
 }
 }
