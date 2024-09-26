@@ -85,7 +85,7 @@
 6. Проверьте terraform plan. Изменений быть не должно.
 
 ------
-Ответ - 1: 
+Ответ - : 
 
 ![image](https://github.com/user-attachments/assets/fe9a3091-8ad5-4057-af63-63a1f15cf45f)
 
@@ -94,3 +94,21 @@
 ![image](https://github.com/user-attachments/assets/12088843-afff-4505-b732-07d9b06c16be)
 89.169.158.20ubuntu@fhmaqdfelovqt275i9c5
 Параметры `preemptible = true` (для создания прерываемой ВМ) и `core_fraction = 5` (для задания уровня производительности vCPU) способствуют снижению затрат на создание и использование виртуальных машин. Мы разворачиваем виртуальные машины в рамках тестирования, и использование полного процессорного времени на 100% в данном контексте не является целесообразным.
+```
+all = [
+  {
+    "platform" = [
+      "ru-central1-a-netology-develop-platform-web",
+      "89.169.133.252",
+      "fhmfqerodej41utvgbam.auto.internal",
+    ]
+  },
+  {
+    "platform2" = [
+      "ru-central1-b-netology-develop-platform-db",
+      "130.193.52.5",
+      "epdvicvgk8idnqcrl1bc.auto.internal",
+    ]
+  },
+]
+ ```
