@@ -86,9 +86,10 @@
 
 ------
 Ответ - 1: 
+
 ![image](https://github.com/user-attachments/assets/fe9a3091-8ad5-4057-af63-63a1f15cf45f)
 
-![image](https://github.com/user-attachments/assets/94fc3121-b447-46e3-b4b6-c99bf1b69447)
+![image](https://github.com/user-attachments/assets/1debcda4-bb22-405d-a6a8-a1b31d2d3fde)
 
 ![image](https://github.com/user-attachments/assets/12088843-afff-4505-b732-07d9b06c16be)
 89.169.158.20ubuntu@fhmaqdfelovqt275i9c5
