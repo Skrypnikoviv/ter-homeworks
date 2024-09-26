@@ -1,19 +1,20 @@
 ###cloud vars
-/*variable "token" {
+/*
   type        = string
+  default     = "y0_AgAAAAAO7KeEAATuwQAAAAD9HzJ0AACPj14iMtlF9qa4VQvgzvVyVq6TmA"
   description = "OAuth-token; https://cloud.yandex.ru/docs/iam/concepts/authorization/oauth-token"
 }
 */
 variable "cloud_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
-  default = "b1g6dgftb02k9esf1nmu"
+  default = "b1g75pcaq4t6a3brbmh2"
 }
 
 variable "folder_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
-  default = "b1gksj8p2pj7de0re301"
+  default = "b1g9t4d4sro2raknaqce"
 }
 variable "default_zone" {
   type        = string
@@ -53,7 +54,7 @@ variable "vpc_db_name" {
 /*
 variable "vms_ssh_root_key" {
   type        = string
-  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDenMAd4hQiqCGq7tq31gEQPMPe1G1mE+Kn4l8qV9dFk user@study"
+  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMMg8HJ2u3X3e19ai4dC8Rp2+FxGVZnPTJMKolwIc7qq ya"
   description = "ssh-keygen -t ed25519"
 }
 */
@@ -112,7 +113,7 @@ variable "vms_resources" {
 }
 
 variable "meta" {
-   default = {ssh_key="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDenMAd4hQiqCGq7tq31gEQPMPe1G1mE+Kn4l8qV9dFk user@study",
+   default = {ssh_key="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMMg8HJ2u3X3e19ai4dC8Rp2+FxGVZnPTJMKolwIc7qq ya",
               sp_e="1"
    }
 }
